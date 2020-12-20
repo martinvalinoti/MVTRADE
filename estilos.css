@@ -1,0 +1,422 @@
+body {
+  font-family: Verdana, Tahoma, Arial;
+  background-color: rgb(26, 77, 94);
+  background-image: url(img/kai.jpg);
+}
+
+header {
+  width: 960px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  font-size: 14px;
+}
+#marca {
+  width: 100px;
+  height: 70px;
+  float: left;
+}
+.h1 {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: ivory;
+  padding: 10px;
+  float: left;
+}
+#botonera_principal {
+  width: 560px;
+  height: 40px;
+  float: right;
+  margin-top: 20px;
+}
+#botonera_principal ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+#botonera_principal ul li {
+  display: inline;
+}
+#botonera_principal ul li a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #190eb8;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+#botonera_principal ul li a:hover {
+  color: #000;
+  background-color: red;
+}
+
+#contenido_principal {
+  width: 960px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+#imagen1 {
+  width: 480px;
+  height: 300px;
+  background-color: #919463;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-image: url(img/EURUSDmicroH1.png);
+  background-size: 480px 300px;
+}
+#presentacion {
+  width: 470px;
+  height: 300px;
+  background-color: #32344f;
+  float: right;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#tituloarticulo {
+  font-family: Helvetica;
+  font-size: 30px;
+}
+#contenido_articulo {
+  font-family: Helvetica;
+  font-size: 20px;
+}
+#frase2 {
+  width: 250px;
+  height: 300px;
+  background-image: url(img/riqueza.jpg);
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+
+#imagen2 {
+  width: 440px;
+  height: 300px;
+  float: left;
+  margin-bottom: 10px;
+  background-image: url(img/seminario.jpg);
+  background-size: cover;
+}
+#destacado {
+  width: 250px;
+  height: 300px;
+  background-image: url(img/frase1.jpg);
+  float: right;
+  margin-bottom: 10px;
+  background-size: 250px 300px;
+}
+
+#complementario {
+  width: 960px;
+  height: 180px;
+  background-color: #e4f08b;
+  clear: both;
+}
+
+#imagen_aside {
+  height: 180px;
+  width: 960px;
+  background-size: cover;
+}
+footer {
+  width: 960px;
+  height: 180px;
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  color: #ffffff;
+}
+#datos {
+  width: 300px;
+  height: 180px;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#redes {
+  width: 600px;
+  height: 40px;
+  float: right;
+  margin-top: 10px;
+}
+#redes ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+#redes ul li {
+  display: inline;
+}
+#redes ul li a {
+  display: inline-block;
+  padding: 20px;
+  background-color: #190eb8;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+#redes ul li a:hover {
+  color: #000;
+  background-color: red;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  header {
+    width: 580px;
+    height: 140px;
+  }
+  p {
+    font-size: 12px;
+  }
+  #marca {
+    width: 100px;
+    height: 70px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+  .h1 {
+    font-family: Helvetica;
+    font-size: 20px;
+    color: ivory;
+    float: none;
+    text-align: center;
+  }
+  #botonera_principal {
+    width: 560px;
+    height: 40px;
+    float: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  #contenido_principal {
+    width: 580px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  #imagen1 {
+    width: 370px;
+    height: 300px;
+    background-color: #919463;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-image: url(img/EURUSDmicroH1.png);
+    background-size: 370px 300px;
+  }
+  #presentacion {
+    width: 200px;
+    height: 300px;
+    background-color: #32344f;
+    float: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  #tituloarticulo {
+    font-family: Helvetica;
+    font-size: 20px;
+  }
+  #contenido_articulo {
+    font-family: Helvetica;
+    font-size: 15px;
+  }
+  #frase2 {
+    width: 150px;
+    height: 300px;
+    background-image: url(img/riqueza.jpg);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-size: 150px 300px;
+  }
+
+  #imagen2 {
+    width: 260px;
+    height: 300px;
+    float: left;
+    margin-bottom: 10px;
+    background-image: url(img/seminario.jpg);
+    background-size: cover;
+  }
+  #destacado {
+    width: 150px;
+    height: 300px;
+    background-image: url(img/frase1.jpg);
+    float: right;
+    margin-bottom: 10px;
+    background-size: 150px 300px;
+  }
+
+  #complementario {
+    width: 580px;
+    height: 150px;
+    background-color: #e4f08b;
+    clear: both;
+  }
+  #imagen_aside {
+    height: 180px;
+    width: 580px;
+    background-size: cover;
+  }
+  footer {
+    width: 580px;
+    height: 150px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  #datos {
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  #redes {
+    width: 220px;
+    height: 35px;
+    background-color: #5f5ea8;
+    float: right;
+  }
+}
+@media all and (max-width: 599px) {
+  header {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    font-size: 14px;
+  }
+  #marca {
+    width: 100px;
+    height: 60px;
+    float: left;
+  }
+  .h1 {
+    font-family: Helvetica;
+    font-size: 20px;
+    color: ivory;
+    float: none;
+    text-align: center;
+  }
+  #botonera_principal {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin-top: 20px;
+  }
+  #botonera_principal ul {
+    float: none;
+  }
+  #botonera_principal ul li {
+    display: block;
+  }
+  #botonera_principal ul li a {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  #contenido_principal {
+    width: 90%;
+    height: auto;
+  }
+  #imagen1 {
+    width: 100%;
+    height: 200px;
+    float: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-image: url(img/EURUSDmicroH1.png);
+    background-size: 100% 200px;
+  }
+  #presentacion {
+    width: 100%;
+    height: auto;
+    background-color: #32344f;
+    float: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  #tituloarticulo {
+    font-family: Helvetica;
+    font-size: 25px;
+  }
+  #contenido_articulo {
+    font-family: Helvetica;
+    font-size: px;
+  }
+  #frase2 {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/riqueza.jpg);
+    float: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-size: 100% 400px;
+  }
+
+  #imagen2 {
+    width: 100%;
+    height: 300px;
+    float: none;
+    margin-bottom: 10px;
+    background-image: url(img/seminario.jpg);
+    background-size: 100% 300px;
+  }
+  #destacado {
+    width: 100%;
+    height: 300px;
+    background-image: url(img/frase1.jpg);
+    float: none;
+    margin-bottom: 10px;
+    background-size: cover;
+  }
+
+  #complementario {
+    display: none;
+  }
+  #imagen_aside {
+    display: none;
+  }
+  footer {
+    width: 90%;
+    height: auto;
+    float: none;
+  }
+  #datos {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  #redes {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+}

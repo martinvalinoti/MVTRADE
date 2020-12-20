@@ -1,0 +1,132 @@
+body {
+  background: url(img/kai.jpg);
+  margin: 0;
+}
+html {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5em;
+}
+
+.h1 {
+  width: 100%;
+  background: rgb(40, 40, 58);
+  font-size: 1.2em;
+  color: ivory;
+  padding: 1em;
+
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes changecolor {
+  from {
+    background: rgb(54, 138, 172);
+  }
+  to {
+    background: rgb(36, 11, 148);
+  }
+}
+
+@keyframes changecolors {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: yellow;
+    width: 400px;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.anim {
+  background: grey;
+  color: white;
+  width: 100%;
+  height: 200px;
+  animation: changecolor 5s linear 4 normal forwards;
+}
+.menu-section {
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid hsl(0, 0%);
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: hsl(0, 0%, 20%);
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.6em 1em;
+}
+
+.menu li a:hover {
+  background: hsl(0, 0%, 25%);
+}
+
+.menu-simple ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-simple li {
+  flex: 1 0 auto;
+  text-align: center;
+}
+.texto {
+  font: 2em sans-serif;
+  font-size: 1em;
+  text-align: center;
+  animation: changecolors 5s linear normal forwards;
+}
+.bd-example {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card-columns .card {
+  display: inline-block;
+  width: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px !important;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
